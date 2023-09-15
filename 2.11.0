@@ -1,0 +1,69 @@
+Collecting tensorboard
+  Obtaining dependency information for tensorboard from https://files.pythonhosted.org/packages/bc/a2/ff5f4c299eb37c95299a76015da3f30211468e29d8d6f1d011683279baee/tensorboard-2.14.0-py3-none-any.whl.metadata
+  Downloading tensorboard-2.14.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting absl-py>=0.4 (from tensorboard)
+  Using cached absl_py-1.4.0-py3-none-any.whl (126 kB)
+Collecting grpcio>=1.48.2 (from tensorboard)
+  Obtaining dependency information for grpcio>=1.48.2 from https://files.pythonhosted.org/packages/dd/c5/22351665cd11c84dc404386ed18177702891d311d8e6421ab8a2665c4a58/grpcio-1.58.0-cp310-cp310-win_amd64.whl.metadata
+  Downloading grpcio-1.58.0-cp310-cp310-win_amd64.whl.metadata (4.1 kB)
+Collecting google-auth<3,>=1.6.3 (from tensorboard)
+  Obtaining dependency information for google-auth<3,>=1.6.3 from https://files.pythonhosted.org/packages/9d/44/5a992cb9d7bf8aaae73bc5adaf721ad08731c9d00c1c17999a8691404b0c/google_auth-2.23.0-py2.py3-none-any.whl.metadata
+  Using cached google_auth-2.23.0-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting google-auth-oauthlib<1.1,>=0.5 (from tensorboard)
+  Using cached google_auth_oauthlib-1.0.0-py2.py3-none-any.whl (18 kB)
+Collecting markdown>=2.6.8 (from tensorboard)
+  Obtaining dependency information for markdown>=2.6.8 from https://files.pythonhosted.org/packages/1a/b5/228c1cdcfe138f1a8e01ab1b54284c8b83735476cb22b6ba251656ed13ad/Markdown-3.4.4-py3-none-any.whl.metadata
+  Using cached Markdown-3.4.4-py3-none-any.whl.metadata (6.9 kB)
+Requirement already satisfied: numpy>=1.12.0 in d:\kh_ai_data\step_step_testing\everydream2trainer\venv\lib\site-packages (from tensorboard) (1.25.2)
+Collecting protobuf>=3.19.6 (from tensorboard)
+  Obtaining dependency information for protobuf>=3.19.6 from https://files.pythonhosted.org/packages/5e/46/5b9674a33cbf690ffdd79ab1863767a66461cd06ea7aeb9f90e4e50be7a5/protobuf-4.24.3-cp310-abi3-win_amd64.whl.metadata
+  Downloading protobuf-4.24.3-cp310-abi3-win_amd64.whl.metadata (540 bytes)
+Requirement already satisfied: requests<3,>=2.21.0 in d:\kh_ai_data\step_step_testing\everydream2trainer\venv\lib\site-packages (from tensorboard) (2.31.0)
+Requirement already satisfied: setuptools>=41.0.0 in d:\kh_ai_data\step_step_testing\everydream2trainer\venv\lib\site-packages (from tensorboard) (63.2.0)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard)
+  Obtaining dependency information for tensorboard-data-server<0.8.0,>=0.7.0 from https://files.pythonhosted.org/packages/da/61/6e9ff8258422d287eec718872fb71e05324356722ab658c8afda25f51539/tensorboard_data_server-0.7.1-py3-none-any.whl.metadata
+  Using cached tensorboard_data_server-0.7.1-py3-none-any.whl.metadata (1.1 kB)
+Collecting werkzeug>=1.0.1 (from tensorboard)
+  Obtaining dependency information for werkzeug>=1.0.1 from https://files.pythonhosted.org/packages/9b/59/a7c32e3d8d0e546a206e0552a2c04444544f15c1da4a01df8938d20c6ffc/werkzeug-2.3.7-py3-none-any.whl.metadata
+  Using cached werkzeug-2.3.7-py3-none-any.whl.metadata (4.1 kB)
+Collecting wheel>=0.26 (from tensorboard)
+  Obtaining dependency information for wheel>=0.26 from https://files.pythonhosted.org/packages/b8/8b/31273bf66016be6ad22bb7345c37ff350276cfd46e389a0c2ac5da9d9073/wheel-0.41.2-py3-none-any.whl.metadata
+  Using cached wheel-0.41.2-py3-none-any.whl.metadata (2.2 kB)
+Collecting cachetools<6.0,>=2.0.0 (from google-auth<3,>=1.6.3->tensorboard)
+  Obtaining dependency information for cachetools<6.0,>=2.0.0 from https://files.pythonhosted.org/packages/a9/c9/c8a7710f2cedcb1db9224fdd4d8307c9e48cbddc46c18b515fefc0f1abbe/cachetools-5.3.1-py3-none-any.whl.metadata
+  Using cached cachetools-5.3.1-py3-none-any.whl.metadata (5.2 kB)
+Collecting pyasn1-modules>=0.2.1 (from google-auth<3,>=1.6.3->tensorboard)
+  Using cached pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+Collecting rsa<5,>=3.1.4 (from google-auth<3,>=1.6.3->tensorboard)
+  Using cached rsa-4.9-py3-none-any.whl (34 kB)
+Collecting urllib3<2.0 (from google-auth<3,>=1.6.3->tensorboard)
+  Obtaining dependency information for urllib3<2.0 from https://files.pythonhosted.org/packages/c5/05/c214b32d21c0b465506f95c4f28ccbcba15022e000b043b72b3df7728471/urllib3-1.26.16-py2.py3-none-any.whl.metadata
+  Using cached urllib3-1.26.16-py2.py3-none-any.whl.metadata (48 kB)
+Collecting requests-oauthlib>=0.7.0 (from google-auth-oauthlib<1.1,>=0.5->tensorboard)
+  Using cached requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in d:\kh_ai_data\step_step_testing\everydream2trainer\venv\lib\site-packages (from requests<3,>=2.21.0->tensorboard) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in d:\kh_ai_data\step_step_testing\everydream2trainer\venv\lib\site-packages (from requests<3,>=2.21.0->tensorboard) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in d:\kh_ai_data\step_step_testing\everydream2trainer\venv\lib\site-packages (from requests<3,>=2.21.0->tensorboard) (2023.7.22)
+Requirement already satisfied: MarkupSafe>=2.1.1 in d:\kh_ai_data\step_step_testing\everydream2trainer\venv\lib\site-packages (from werkzeug>=1.0.1->tensorboard) (2.1.3)
+Collecting pyasn1<0.6.0,>=0.4.6 (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard)
+  Using cached pyasn1-0.5.0-py2.py3-none-any.whl (83 kB)
+Collecting oauthlib>=3.0.0 (from requests-oauthlib>=0.7.0->google-auth-oauthlib<1.1,>=0.5->tensorboard)
+  Using cached oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Downloading tensorboard-2.14.0-py3-none-any.whl (5.5 MB)
+   ---------------------------------------- 5.5/5.5 MB 669.0 kB/s eta 0:00:00
+Using cached google_auth-2.23.0-py2.py3-none-any.whl (181 kB)
+Using cached grpcio-1.58.0-cp310-cp310-win_amd64.whl (4.3 MB)
+Using cached Markdown-3.4.4-py3-none-any.whl (94 kB)
+Downloading protobuf-4.24.3-cp310-abi3-win_amd64.whl (430 kB)
+   ---------------------------------------- 430.5/430.5 kB 3.9 MB/s eta 0:00:00
+Using cached tensorboard_data_server-0.7.1-py3-none-any.whl (2.4 kB)
+Using cached werkzeug-2.3.7-py3-none-any.whl (242 kB)
+Using cached wheel-0.41.2-py3-none-any.whl (64 kB)
+Using cached cachetools-5.3.1-py3-none-any.whl (9.3 kB)
+Using cached urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
+Installing collected packages: wheel, werkzeug, urllib3, tensorboard-data-server, pyasn1, protobuf, oauthlib, markdown, grpcio, cachetools, absl-py, rsa, pyasn1-modules, requests-oauthlib, google-auth, google-auth-oauthlib, tensorboard
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.0.4
+    Uninstalling urllib3-2.0.4:
+      Successfully uninstalled urllib3-2.0.4
+Successfully installed absl-py-1.4.0 cachetools-5.3.1 google-auth-2.23.0 google-auth-oauthlib-1.0.0 grpcio-1.58.0 markdown-3.4.4 oauthlib-3.2.2 protobuf-4.24.3 pyasn1-0.5.0 pyasn1-modules-0.3.0 requests-oauthlib-1.3.1 rsa-4.9 tensorboard-2.14.0 tensorboard-data-server-0.7.1 urllib3-1.26.16 werkzeug-2.3.7 wheel-0.41.2
